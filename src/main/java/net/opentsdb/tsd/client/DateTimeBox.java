@@ -10,7 +10,7 @@
 // General Public License for more details.  You should have received a copy
 // of the GNU Lesser General Public License along with this program.  If not,
 // see <http://www.gnu.org/licenses/>.
-package tsd.client;
+package net.opentsdb.tsd.client;
 
 import java.util.Date;
 
@@ -167,7 +167,6 @@ final class DateTimeBox extends DateBox {
     /**
      * Returns a new button that sets the hours when clicked.
      * @param hours An hour of the day (0-23).
-     * @param label The label to put on the button.
      */
     private PushButton newSetHoursButton(final int hours) {
       final PushButton button = new PushButton(Integer.toString(hours));
