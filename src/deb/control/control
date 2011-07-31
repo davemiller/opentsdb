@@ -1,0 +1,8 @@
+Package: opentsdb
+Version: 1.0
+Section: misc
+Priority: optional
+Architecture: all
+Depends: sun-java6-jdk, gnuplot
+Maintainer: Dave Miller <dave@davemiller.id.au>
+Description: Open time series database

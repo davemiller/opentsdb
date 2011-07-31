@@ -1,0 +1,8 @@
+#port that Open TSDB listen's on for http and telnet based commands
+TSD_PORT=4242
+
+#static files directory for http server
+STATIC_DIR=/var/opentsdb/static
+
+#directory for cached files and requests
+CACHE_DIR=/tmp/
